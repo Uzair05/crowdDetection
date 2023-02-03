@@ -1,0 +1,7 @@
+path: ../training
+train: images
+val: images
+test: #images_test
+
+nc: 1
+names: ['Person']
