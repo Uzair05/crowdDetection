@@ -15,7 +15,7 @@ def crowd_details():
     file_ = request.files['file']
     file_name_ = file_.filename
     file__ = cv2.imdecode(np.fromfile(file_, np.uint8), cv2.IMREAD_COLOR)
-    return {"file_name": file_name_}
+    return predictPerson(file__)
 
 
 app.run(host='0.0.0.0')

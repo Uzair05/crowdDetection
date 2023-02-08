@@ -6,7 +6,7 @@ import cv2
 import torch
 
 
-model = torch.hub.load("./yolov5", "custom", source='local', path="./modelSaves/best.pt", force_reload=True)
+model = torch.hub.load("../yolov5", "custom", source='local', path="../modelSaves/best.pt", force_reload=True)
 
 def predictPerson(file):
     res = model(file)
