@@ -3,6 +3,8 @@ COMP3362_StarfishDetection/
 yolov5/
 training/
 coco.tar
+data/
+labels.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,git,macos,python,pycharm,c++,c,fortran,jupyternotebooks,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,git,macos,python,pycharm,c++,c,fortran,jupyternotebooks,node
